@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+    <link href="css/docs.min.css" rel="stylesheet" />
+    <link href="css/application.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <h1>Привет мир!</h1>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-default">1</button>
+  <button type="button" class="btn btn-default">2</button>
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+        Dropdown
+        <span class="caret"></span>
+      </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Dropdown ссылка</a></li>
+      <li><a href="#">Dropdown ссылка</a></li>
+    </ul>
+  </div>
+</div>
+	
+	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu3">
+  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Обычная ссылка</a></li>
+  <li role="presentation" class="disabled"><a role="menuitem" tabindex="-1" href="#">Заблокированая ссылка</a></li>
+  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Другая ссылка</a></li>
+</ul>
+	
+	
+	<div class="bs-example">
+	<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Пароль</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Запомнить меня
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Войти</button>
+    </div>
+  </div>
+</form>
+
+
+	</div>
+
+	<table class="table table-hover">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Имя</th>
+          <th>Фамилия</th>
+          <th>Пользователь</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+	
+<div class="container-fluid">
+	<div class="row">
+  <div class="col-sm-6">.col-md-3 col-sm-6 col-sx-6</div>
+  <div class="col-sm-6">.col-md-3 col-sm-6 col-sx-6</div>
+  <div class="col-sm-6">.col-md-3 col-sm-6 col-sx-6</div>
+  <div class="col-sm-6">.col-md-3 col-sm-6 col-sx-6</div>
+</div>
+</div>
+
+<div class="row show-grid">
+  <div class="col-md-9">
+    Level 1: .col-md-9
+    <div class="row">
+      <div class="col-md-6">
+        Level 2: .col-md-6
+      </div>
+      <div class="col-md-6">
+        Level 2: .col-md-6
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+</div>
+<div class="row">
+  <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+  <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+</div>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+</div>
+
+  </body>
+</html>
